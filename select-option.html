@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        
+        <style>
+            .Container {
+                padding: 100px;
+            }    
+               
+
+            /* Select-Option css */
+
+            .Select-Option-wrapper {
+                position: relative;
+            }
+            .form-select--address {
+                color: #667085;
+                font-size: .87em;
+                width: 100%;
+                border: 1px solid #D0D5DD;
+                border-radius: 8px;
+                height: 44px;
+                padding: 0 14px;
+                background: transparent;
+                box-shadow: 0 1px 2px 0 #1018280D;
+                cursor: pointer;
+                appearance: none;
+            }
+            .Select-Option-wrapper:after {
+                content: '';
+                position: absolute;
+                top: 50%;
+                right: 14px;
+                transform: translateY(-50%);
+                text-align: center;
+                cursor: pointer;
+                border-top: 5px solid #667085;
+                border-right: 5px solid transparent;
+                border-left: 5px solid transparent;
+                pointer-events: none;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="Container">
+            <div class="Select-Option-wrapper">
+                <select name="select" id="select-option" class="form-select--address"">
+                    <option value="">100+ Employees</option>
+                    <option value="1">50+ Employees</option>
+                    <option value="2">70+ Employees</option>
+                    <option value="3">300+ Employees</option>
+                    <option value="4">200+ Employees</option>
+                </select>      
+            </div>
+        </div>
+        
+
+        <script>
+            
+        </script>
+            
+    </body>
+</html>
